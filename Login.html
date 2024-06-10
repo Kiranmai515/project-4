@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <style>
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #d6c7c7;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: rgb(98, 44, 44);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        h1{
+            background-color: rgb(20, 21, 21);
+            font-style: italic;
+        }
+        body{
+            background-image: url("file:///C:/Users/91824/Desktop/pic.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; /* Ensures the image covers the entire background */
+            color: rgb(84, 13, 25);
+            font-style:inherit ;
+        }
+        script{
+            text-align: center;
+            font-size: larger;
+            font-style: italic;
+        }
+    </style>
+    <script>
+        function myfun(){
+            document.write("Thanks for logged in.Have a nice day")
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Learn MERN</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="registration.html">Registration</a></li>
+        </ul>
+    </nav>
+    <br>
+    <center>
+        <form action="loginpage.html">
+            <h3>WELCOME to Login Page</h3>
+            USERNAME: <input type="text" name="User" placeholder="UserName"><br><br>
+            PASSWORD: <input type="password" name="pswrd" placeholder="Password"><br><br>
+            <button type="button" onclick="myfun()">Submit</button>
+            <a href="About.html">Login</a>
+        </form>
+    </center>
+</body>
+</html>
